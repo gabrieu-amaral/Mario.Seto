@@ -86,6 +86,17 @@
 
             </section>
 
+            <section id="missao"
+            class="pt-24 flex flex-col-reverse md:grid lg:grid-cols-2 md:grid-cols-2 gap-10 p-5">
+
+                
+                <div  class="px-4 lg:px-16 justify-center">
+                    <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium pt-1 pb-1">Nossa Missão</h2>
+                    <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ab, aut est dolor autem quia non optio accusantium facere aspernatur impedit, ullam natus, eligendi doloribus eius ipsa porro. Nostrum, reiciendis.</p>
+                </div>
+
+            </section>
+
             <section  class="px-4 lg:px-16 p-16 pt-24">
                 <div class="m-auto text-center flex-col w-full">
                     <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium">Me acompanhe nas redes sociais</h2>
@@ -111,9 +122,9 @@
             </section>
 
             <section>
-                <div class="grid lg:grid-cols-2 gap-10 p-16 pt-24 justify-center bg-white">
+                <div class="grid lg:grid-cols-2 gap-10 p-16 pt-24 justify-center bg-gray-300">
                     <div>
-                        <h2 class="flex justify-center text-2xl align-baseline font-sans font-medium pt-1 pb-1 text-slate-900">Apoie nossa causa!</h2>
+                        <h2 class="flex justify-center md:justify-start text-2xl align-baseline font-sans font-medium pt-1 pb-1 text-slate-900">Apoie nossa causa!</h2>
                         <p class="text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sed. Aspernatur incidunt provident cumque corporis deserunt sint fuga, enim atque magni minima, voluptas repellat voluptatum, adipisci qui! Ut, numquam quas?</p>
                     </div>
 
@@ -130,9 +141,9 @@
                         <div class="col-span-1 w-auto flex">
 
                             <div class="">
-                                <p class="text-left flex items-center gap-2 hover:text-gray-700 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/marker.png" class="w-3 h-3">136, Mário José de F. Ferraz, Maringá, Paraná</p>
-                                <p class="text-left flex items-center gap-2 hover:text-gray-700 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/phone.png" class="w-3 h-3"> 44 998181367</p>
-                                <p class="text-left flex items-center gap-2 hover:text-gray-700 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/mail.png" class="w-3 h-3">marioseto@gmail.com</p>
+                                <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/marker.png" class="w-3 h-3">136, Mário José de F. Ferraz, Maringá, Paraná</p>
+                                <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/phone.png" class="w-3 h-3"> 44 998181367</p>
+                                <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/mail.png" class="w-3 h-3">marioseto@gmail.com</p>
                             </div>
                         </div>
 
@@ -155,7 +166,16 @@
                             &copy; Topo da praça corporations. 2022. All rights reserved.
                     </div>
                     <div class="flex justify-around gap-8 w-auto mt-8 md:mt-0 lg:mt-0">
-                            <img class="w-6 h-6" src="https://img.icons8.com/ios-filled/25/999999/instagram--v2.png"/><img class="w-6 h-6" src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png"/><img class="w-6 h-6" src="https://img.icons8.com/ios-filled/25/999999/linkedin--v1.png"/><img class="w-6 h-6" src="https://img.icons8.com/ios-filled/25/999999/whatsapp--v1.png"/>
+                            <a href="https://www.instagram.com/marioseto23/">
+                                <font-awesome-icon :icon="instagram" class="h-6 w-6 hover:text-blue-900"/>
+                            </a>
+                            <a href="https://www.facebook.com/MarioSetoTakeguma">
+                                 <font-awesome-icon :icon="facebook" class="h-6 w-6 hover:text-blue-900" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/m%C3%A1rio-seto-takeguma-jr-9b931599/">
+                                <font-awesome-icon :icon="linkedin" class="h-6 w-6 hover:text-blue-500"/>
+                            </a>
+                            <font-awesome-icon :icon="whatsapp" class="h-6 w-6 hover:text-green-400"/>
                     </div>
                 </div>
 
