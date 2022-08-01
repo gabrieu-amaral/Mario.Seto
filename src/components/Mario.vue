@@ -61,7 +61,7 @@
 
             <section id="home" class="pt-28 lg:pb-0 px-4 lg:px-16 grid lg:grid-cols-2 gap-4 bg-[url('../image/background2.png')] h-full w-full bg-cover bg-{opacity-50}">
                 <div>
-                    <picture class="flex lg:justify-end md:justify-center">
+                    <picture class="flex lg:justify-end md:justify-center md:h-[650px] px-16">
                         <img src="../image/mario.png" alt="foto do Mário Seto">
                     </picture>
                 </div>
@@ -102,15 +102,15 @@
                     <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium">Me acompanhe nas redes sociais</h2>
                     <div class="w-full flex justify-around text-white pt-14">
                         
-                        <a href="" class="hover:text-gray-300 place-items-center">
+                        <a href="https://www.instagram.com/marioseto23/" target="_black" class="hover:text-gray-300 place-items-center">
                             <font-awesome-icon :icon="instagram" class="h-12 w-12 hover:text-blue-900" />
                         </a>
                         
-                        <a href="" class="hover:text-gray-300">
+                        <a href="https://www.facebook.com/MarioSetoTakeguma" target="_black" class="hover:text-gray-300">
                              <font-awesome-icon :icon="facebook" class="h-12 w-12 hover:text-blue-900" />
                         </a>
-                        <a href="" class="hover:text-gray-300">
-                            <font-awesome-icon :icon="linkedin" class="h-12 w-12 hover:text-blue-500"/>
+                        <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black" class="hover:text-gray-300">
+                            <font-awesome-icon :icon="youtube" class="h-12 w-12 hover:text-blue-500"/>
                         </a>
                         <a href="" class="hover:text-gray-300">
                             <font-awesome-icon :icon="whatsapp" class="h-12 w-12 hover:text-green-400"/>
@@ -166,14 +166,14 @@
                             &copy; Topo da praça corporations. 2022. All rights reserved.
                     </div>
                     <div class="flex justify-around gap-8 w-auto mt-8 md:mt-0 lg:mt-0">
-                            <a href="https://www.instagram.com/marioseto23/">
+                            <a href="https://www.instagram.com/marioseto23/" target="_black">
                                 <font-awesome-icon :icon="instagram" class="h-6 w-6 hover:text-blue-900"/>
                             </a>
-                            <a href="https://www.facebook.com/MarioSetoTakeguma">
+                            <a href="https://www.facebook.com/MarioSetoTakeguma" target="_black">
                                  <font-awesome-icon :icon="facebook" class="h-6 w-6 hover:text-blue-900" />
                             </a>
-                            <a href="https://www.linkedin.com/in/m%C3%A1rio-seto-takeguma-jr-9b931599/">
-                                <font-awesome-icon :icon="linkedin" class="h-6 w-6 hover:text-blue-500"/>
+                            <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black">
+                                <font-awesome-icon :icon="youtube" class="h-6 w-6 hover:text-blue-500"/>
                             </a>
                             <font-awesome-icon :icon="whatsapp" class="h-6 w-6 hover:text-green-400"/>
                     </div>
@@ -186,7 +186,7 @@
 
 <script>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faFacebook, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faLinkedin, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export default {
     name: 'Mario',
@@ -196,7 +196,8 @@ export default {
             instagram: faInstagram,
             facebook: faFacebook,
             linkedin: faLinkedin,
-            whatsapp: faWhatsapp
+            whatsapp: faWhatsapp,
+            youtube: faYoutube
 
             
         }
