@@ -5,9 +5,11 @@
 <template>
     <div class="bg-slate-900 h-full">
         <div class="lg:container mx-auto px-0 custom-shadow TIREI UM AZUL DAQUI">
-            <nav class="fixed top-0 left-0 w-full shadow-xl bg-blue-900">
-                <div class="container m-auto flex justify-between items-center text-cyan-100"> 
-                     <a class="p-4" href="">Mário Seto</a>
+            <nav class="fixed top-0 left-0 w-full backdrop-blur-lg z-50 shadow-xl bg-blue-900 opacity-90">
+                <div class="container m-auto flex justify-between items-center text-cyan-100 z-50"> 
+                     <a class="" href="">
+                        <img src="../image/mariov.svg" alt="" className=" md:h-16 md:w-16 h-24 w-24 -p-4">
+                     </a>
                 
                     <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
                         <li class="hover:bg-blue-800 py-4 px-6">
@@ -34,7 +36,7 @@
                         <div class="w-6 h-0.5 bg-gray-200 mb-1"></div>
                         <div class="w-6 h-0.5 bg-gray-200 mb-1"></div>
                         <div class="w-6 h-0.5 bg-gray-200"></div>
-                        <div class="absolute top-0 -right-full h-screen w-8/12 bg-blue-900 border-none opacity-0
+                        <div class="absolute top-0 -right-full h-screen w-8/12 backdrop-blur-xl bg-blue-900 border-none opacity-0
                         group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
                             <ul class="flex flex-col items-center w-full text-base cursor-pointer pt-10">
                                 <li class="hover:bg-blue-800 py-4 px-6">
@@ -75,7 +77,7 @@
                 
                 <div  class="px-4 lg:px-16 justify-center">
                     <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium pt-1 pb-1">Quem é Mário Seto?</h2>
-                    <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ab, aut est dolor autem quia non optio accusantium facere aspernatur impedit, ullam natus, eligendi doloribus eius ipsa porro. Nostrum, reiciendis.</p>
+                    <p class="text-lg text-gray-600">Meu nome é Mário Seto, sou pai, psicólogo clínico, cuido de pessoas, trabalho no SUS há 10 anos lutando pela Saúde Mental, comecei em Sarandi, fui chefe na Saúde na Regional de Londrina com 21 municípios e coordenei a Saúde Mental da Regional de Maringá com 30 municípios.</p>
                 </div>
 
                 <div  class="px-4 lg:px-16">
@@ -92,7 +94,10 @@
                 
                 <div  class="px-4 lg:px-16 justify-center">
                     <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium pt-1 pb-1">Nossa Missão</h2>
-                    <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ab, aut est dolor autem quia non optio accusantium facere aspernatur impedit, ullam natus, eligendi doloribus eius ipsa porro. Nostrum, reiciendis.</p>
+                    <p class="text-lg text-gray-600 py-2">Muitos paranaenses precisam de ajuda psicológica e outros tratamentos especializados, seja para o autismo, a depressão, ansiedade, tdah, esquizofrenia. As taxas de suicidio aumentaram e cerca de 86% dos brasileiros têm problemas com saúde mental depois da pandemia.</p>
+                    <p class="text-lg text-gray-600 py-2">Meu medo é que não estamos vendo soluções preventivas e interventivas, não temos investimentos em Saúde Mental no Estado. Em casa, na rua e no trabalho não estamos falando e muito menos cuidando da saúde mental das pessoas, às vezes nem de quem amamos, são muitas brigas em vão, todo dia.</p>
+                    <p class="text-lg text-gray-600 py-2">Brigar é muito feito, precisamos lutar e lutar pelo certo e com Respeito! Devemos lutar pela Saúde Mental, cuidar do nosso cérebro e coração, pois boas cabeças farão bons amigos e serão bons trabalhadores. E mais que isso, vou continuar cobrando os nossos direitos no poder legislativo, pessoas mais conscientes já sabem que o dinheiro dos impostos que pagamos é o suficiente para fazer projetos incríveis na Saúde Mental do nosso Paraná!</p>
+                    <p class="text-lg text-gray-600 py-2">Venha com a gente, discutir de forma madura ações de saúde mental para o estado.</p>
                 </div>
 
             </section>
