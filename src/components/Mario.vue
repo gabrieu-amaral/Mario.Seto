@@ -8,7 +8,7 @@
             <nav class="fixed top-0 left-0 w-full backdrop-blur-lg z-50 shadow-xl bg-blue-900 opacity-90">
                 <div class="container m-auto flex justify-between items-center text-cyan-100 z-50"> 
                      <a class="" href="">
-                        <img src="../image/mariov.svg" alt="" className=" md:h-16 md:w-16 h-24 w-24 -p-4">
+                        <img src="../image/mariov.svg" alt="" className=" md:h-16 md:w-16 w-24 md:-p-4 pl-4 md:px-0 py-3">
                      </a>
                 
                     <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
@@ -61,14 +61,14 @@
             </nav>
        
 
-            <section id="home" class="pt-28 lg:pb-0 px-4 lg:px-16 grid lg:grid-cols-2 gap-4 bg-[url('../image/background2.png')] h-full w-full bg-cover bg-{opacity-50}">
+            <section id="home" class="pt-28 lg:pb-0 px-4 lg:px-16 md:grid flex flex-col-reverse lg:grid-cols-2 gap-4 bg-[url('../image/background2.png')] h-full w-full bg-cover bg-{opacity-50}">
                 <div>
                     <picture class="flex lg:justify-end md:justify-center md:h-[650px] px-16">
                         <img src="../image/mario.png" alt="foto do Mário Seto">
                     </picture>
                 </div>
                 <div class="flex justify-center place-items-center mb-8">
-                    <h1 class="text-3xl text-center lg:text-left lg:text-5xl md:text-5xl font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">Força e Esperança para a Saúde Mental do Paraná</h1>
+                    <h1 class="text-2xl text-center lg:text-left lg:text-5xl md:text-5xl font-sans font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">Força e Esperança para a Saúde Mental do Paraná</h1>
                 </div>
             </section>
 
@@ -84,7 +84,7 @@
                     <picture>
                         <img class="max-h-40 sm:h-28 md:h-36 lg:h-44 flex m-auto" src="../image/mario-com-familia.png" alt="foto do Mário">
                     </picture>
-                    </div>
+                </div>
 
             </section>
 
@@ -111,7 +111,7 @@
                             <font-awesome-icon :icon="instagram" class="h-12 w-12 hover:text-blue-900" />
                         </a>
                         
-                        <a href="https://www.facebook.com/MarioSetoTakeguma" target="_black" class="hover:text-gray-300">
+                        <a href="https://www.facebook.com/MarioSeto23" target="_black" class="hover:text-gray-300">
                              <font-awesome-icon :icon="facebook" class="h-12 w-12 hover:text-blue-900" />
                         </a>
                         <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black" class="hover:text-gray-300">
