@@ -5,7 +5,7 @@
 <template>
     <div class="bg-slate-900 h-full">
         <div class="lg:container mx-auto px-0 custom-shadow TIREI UM AZUL DAQUI">
-            <nav class="fixed top-0 left-0 w-full backdrop-blur-lg z-50 shadow-xl bg-blue-900 opacity-90">
+            <nav class="fixed top-0 left-0 w-full backdrop-blur-lg z-50 shadow-xl bg-blue-900 opacity-95">
                 <div class="container m-auto flex justify-between items-center text-cyan-100 z-50"> 
                      <a class="" href="">
                         <img src="../image/mariov.svg" alt="" className=" md:h-16 md:w-16 w-24 md:-p-4 pl-4 md:px-0 py-3">
@@ -61,10 +61,10 @@
             </nav>
        
 
-            <section id="home" class="pt-28 lg:pb-0 px-4 lg:px-16 md:grid flex flex-col-reverse lg:grid-cols-2 gap-4 bg-[url('../image/background2.png')] h-full w-full bg-cover bg-{opacity-50}">
+            <section id="home" class="pt-28 lg:pb-0 px-4 lg:px-16 lg:grid flex flex-col-reverse lg:grid-cols-2 gap-4 bg-[url('../image/background2.png')] h-full w-full bg-cover bg-{opacity-50}">
                 <div>
-                    <picture class="flex lg:justify-end md:justify-center md:h-[650px] px-16">
-                        <img src="../image/mario.png" alt="foto do Mário Seto">
+                    <picture class="flex lg:justify-end md:justify-center md:h-[38rem] px-16">
+                        <img src="../image/mario.png" alt="foto do Mário Seto" class="lg:max-w-none">
                     </picture>
                 </div>
                 <div class="flex justify-center place-items-center mb-8">
@@ -100,6 +100,59 @@
                     <p class="text-lg text-gray-600 py-2">Venha com a gente, discutir de forma madura ações de saúde mental para o estado.</p>
                 </div>
 
+                <div>
+                    <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium pt-1 pb-3">Nossas bandeiras</h2>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 content-end">
+                        <div class="grid items-stretch p-6 rounded-lg 
+                        bg-gradient-to-r from-gray-900 to-slate-900">
+                            <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
+                            <p class="text-lg text-gray-600 py-2 lg:py-6">Promoção da saúde mental em escolas e solidariedade às pessoas em sofrimento psíquico</p>
+                            
+                            <div class="mt-auto self-end">
+                                <img src="/psychology.png"
+                                class="h-24 w-24" 
+                                alt="">
+                            </div>
+                        </div>
+
+                        <div class="grid items-stretch p-6 rounded-lg 
+                        bg-gradient-to-r from-gray-900 to-slate-900">
+                            <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Acessibilidade</h3>
+                            <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
+                            
+                            <div class="mt-auto self-end">
+                                <img src="/disies.svg"
+                                class="h-24 w-24" 
+                                alt="">
+                            </div>
+                        </div>
+
+                        <div class="grid items-stretch  p-6 rounded-lg 
+                        bg-gradient-to-r from-gray-900 to-slate-900">
+                            <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Viva o SUS!</h3>
+                            <p class="text-lg text-gray-600 py-2 lg:py-6">Fortalecer os recursos do SUS, apoiando profissionais da saúde, serviço social e educação
+                            </p>
+                            
+                            <div class="mt-auto self-end">
+                                <img src="/sus.svg"
+                                class="h-24 w-24" 
+                                alt="">
+                            </div>
+                        </div>
+
+                        <div class="grid items-stretch p-6 rounded-lg 
+                        bg-gradient-to-r from-gray-900 to-slate-900">
+                            <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
+                            <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
+                            
+                            <div class="mt-auto self-end">
+                                <font-awesome-icon :icon="instagram" class="h-24 w-24 hover:text-blue-900 text-blue-900"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
             <section  class="px-4 lg:px-16 p-16 pt-24">
@@ -129,11 +182,11 @@
             <section>
                 <div class="grid lg:grid-cols-2 gap-10 p-16 pt-24 justify-center bg-gray-300">
                     <div>
-                        <h2 class="flex justify-center md:justify-start text-2xl align-baseline font-sans font-medium pt-1 pb-1 text-slate-900">Apoie nossa causa!</h2>
+                        <h2 class="flex justify-center md:justify-start text-2xl align-baseline font-sans font-medium pt-1 pb-1 text-slate-900">Apoie a causa!</h2>
                         <p class="text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sed. Aspernatur incidunt provident cumque corporis deserunt sint fuga, enim atque magni minima, voluptas repellat voluptatum, adipisci qui! Ut, numquam quas?</p>
                     </div>
 
-                    <button class="bg-gradient-to-r from-blue-800 to-blue-600 hover:to-blue-900 px-6 py-4 text-3xl leading-6 rounded-full font-semibold text-white max-h-16 md:mx-36 my-auto shadow-gray-500 shadow-2xl"
+                    <button class="bg-gradient-to-r from-blue-800 to-blue-600 hover:to-blue-900 px-6 py-4 text-3xl leading-6 rounded-full font-semibold text-white max-h-24 md:mx-24 my-auto shadow-gray-500 shadow-2xl"
                     type="button">
                         Quero ajudar
                     </button>
