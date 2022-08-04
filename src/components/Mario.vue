@@ -5,7 +5,8 @@
 <template>
     <div class="bg-slate-900 h-full">
         <div class="lg:container mx-auto px-0 custom-shadow TIREI UM AZUL DAQUI">
-            <nav class="fixed top-0 left-0 w-full backdrop-blur-lg z-50 shadow-xl bg-blue-900 opacity-95">
+            <nav class="fixed top-0 left-0 w-full backdrop-blur-lg z-50 shadow-xl opacity-95
+            bg-gradient-to-r from-blue-900 to-blue-700">
                 <div class="container m-auto flex justify-between items-center text-cyan-100 z-50"> 
                      <a class="" href="">
                         <img src="../image/mariov.svg" alt="" className=" md:h-16 md:w-16 w-24 md:-p-4 pl-4 md:px-0 py-3">
@@ -20,7 +21,7 @@
                                 <a href="#sobre">Sobre</a>
                         </li>
 
-                        <li class="hover:bg-blue-800py-4 px-6">
+                        <li class="hover:bg-blue-800 py-4 px-6">
                                 <a href="#missao">Missão</a>
                         </li>
 
@@ -101,11 +102,11 @@
                 </div>
 
                 <div>
-                    <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium pt-1 pb-3">Nossas bandeiras</h2>
+                    <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium pt-1 pb-3 ml-4">Nossas bandeiras</h2>
 
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 content-end">
                         <div class="grid items-stretch p-6 rounded-lg 
-                        bg-gradient-to-r from-gray-900 to-slate-900">
+                        bg-gradient-to-r from-gray-900 to-slate-900 hover:to-slate-800">
                             <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
                             <p class="text-lg text-gray-600 py-2 lg:py-6">Promoção da saúde mental em escolas e solidariedade às pessoas em sofrimento psíquico</p>
                             
@@ -117,7 +118,7 @@
                         </div>
 
                         <div class="grid items-stretch p-6 rounded-lg 
-                        bg-gradient-to-r from-gray-900 to-slate-900">
+                        bg-gradient-to-r from-gray-900 to-slate-900 hover:to-slate-800">
                             <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Acessibilidade</h3>
                             <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
                             
@@ -129,7 +130,7 @@
                         </div>
 
                         <div class="grid items-stretch  p-6 rounded-lg 
-                        bg-gradient-to-r from-gray-900 to-slate-900">
+                        bg-gradient-to-r from-gray-900 to-slate-900 hover:to-slate-800">
                             <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Viva o SUS!</h3>
                             <p class="text-lg text-gray-600 py-2 lg:py-6">Fortalecer os recursos do SUS, apoiando profissionais da saúde, serviço social e educação
                             </p>
@@ -142,7 +143,7 @@
                         </div>
 
                         <div class="grid items-stretch p-6 rounded-lg 
-                        bg-gradient-to-r from-gray-900 to-slate-900">
+                        bg-gradient-to-r from-gray-900 to-slate-900 hover:to-slate-800">
                             <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
                             <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
                             
@@ -167,8 +168,8 @@
                         <a href="https://www.facebook.com/MarioSeto23" target="_black" class="hover:text-gray-300">
                              <font-awesome-icon :icon="facebook" class="h-12 w-12 hover:text-blue-900" />
                         </a>
-                        <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black" class="hover:text-gray-300">
-                            <font-awesome-icon :icon="youtube" class="h-12 w-12 hover:text-blue-500"/>
+                        <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black" class="hover:text-red-300">
+                            <font-awesome-icon :icon="youtube" class="h-12 w-12 hover:text-red-500"/>
                         </a>
                         <a href="" class="hover:text-gray-300">
                             <font-awesome-icon :icon="whatsapp" class="h-12 w-12 hover:text-green-400"/>
