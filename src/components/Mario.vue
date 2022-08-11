@@ -13,20 +13,20 @@
                      </a>
                 
                     <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
-                        <li class="hover:bg-blue-800 py-4 px-6">
-                                <a href="#home">Home</a>
+                        <li class="">
+                                <a href="#home" class="hover:bg-blue-800 py-4 px-6">Home</a>
                         </li>
 
-                        <li class="hover:bg-blue-800 py-4 px-6">
-                                <a href="#sobre">Sobre</a>
+                        <li >
+                                <a href="#sobre" class="hover:bg-blue-800 py-4 px-6">Sobre</a>
                         </li>
 
-                        <li class="hover:bg-blue-800 py-4 px-6">
-                                <a href="#missao">Missão</a>
+                        <li >
+                                <a href="#missao" class="hover:bg-blue-800 py-4 px-6">Missão</a>
                         </li>
 
-                        <li class="hover:bg-blue-800 py-4 px-6">
-                                <a href="#footer">Contato</a>
+                        <li >
+                                <a href="#footer" class="hover:bg-blue-800 py-4 px-6">Contato</a>
                         </li>
                     </ul>
 
@@ -39,21 +39,21 @@
                         <div class="w-6 h-0.5 bg-gray-200"></div>
                         <div class="absolute top-0 -right-full h-screen w-8/12 backdrop-blur-xl bg-blue-900 border-none opacity-0
                         group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
-                            <ul class="flex flex-col items-center w-full text-base cursor-pointer pt-10">
-                                <li class="hover:bg-blue-800 py-4 px-6">
-                                        <a href="#home">Home</a>
+                            <ul class="flex flex-col items-center w-full text-base cursor-pointer">
+                                <li class="my-5 mt-16">
+                                        <a href="#home" class="hover:bg-blue-800 py-4 px-24">Home</a>
+                                </li >
+
+                                <li class="my-5">
+                                        <a href="#sobre" class="hover:bg-blue-800 py-4 px-24">Sobre</a>
                                 </li>
 
-                                <li class="hover:bg-blue-800 py-4 px-6">
-                                        <a href="#sobre">Sobre</a>
+                                <li class="my-5">
+                                        <a href="#missao" class="hover:bg-blue-800 py-4 px-24">Missão</a>
                                 </li>
 
-                                <li class="hover:bg-blue-800 py-4 px-6">
-                                        <a href="#missao">Missão</a>
-                                </li>
-
-                                <li class="hover:bg-blue-800 py-4 px-6">
-                                        <a href="#footer">Contato</a>
+                                <li class="my-5">
+                                        <a href="#footer" class="hover:bg-blue-800 py-4 px-24">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -69,7 +69,8 @@
                     </picture>
                 </div>
                 <div class="flex justify-center place-items-center mb-8">
-                    <h1 class="text-2xl text-center lg:text-left lg:text-5xl md:text-5xl font-sans font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">Força e Esperança para a Saúde Mental do Paraná</h1>
+                    <h1 class="text-2xl text-center lg:text-left lg:text-5xl md:text-5xl font-sans font-extrabold text-gray-200
+                    tracking-wide leading-normal lg:leading-relaxed">Força e Esperança para a Saúde Mental do Paraná</h1>
                 </div>
             </section>
 
@@ -107,8 +108,8 @@
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 content-end">
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-900 to-slate-900 hover:to-slate-800">
-                            <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
-                            <p class="text-lg text-gray-600 py-2 lg:py-6">Promoção da saúde mental em escolas e solidariedade às pessoas em sofrimento psíquico</p>
+                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
+                            <p class="text-lg text-gray-500 py-2 lg:py-6">Promoção da saúde mental em escolas e solidariedade às pessoas em sofrimento psíquico</p>
                             
                             <div class="mt-auto self-end">
                                 <img src="/psychology.png"
@@ -118,9 +119,9 @@
                         </div>
 
                         <div class="grid items-stretch p-6 rounded-lg 
-                        bg-gradient-to-r from-gray-900 to-slate-900 hover:to-slate-800">
-                            <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Acessibilidade</h3>
-                            <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
+                        bg-gradient-to-r from-slate-900 to-slate-900 hover:to-slate-800">
+                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Acessibilidade</h3>
+                            <p class="text-lg text-gray-500 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
                             
                             <div class="mt-auto self-end">
                                 <img src="/disies.svg"
@@ -131,8 +132,8 @@
 
                         <div class="grid items-stretch  p-6 rounded-lg 
                         bg-gradient-to-r from-gray-900 to-slate-900 hover:to-slate-800">
-                            <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Viva o SUS!</h3>
-                            <p class="text-lg text-gray-600 py-2 lg:py-6">Fortalecer os recursos do SUS, apoiando profissionais da saúde, serviço social e educação
+                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Viva o SUS!</h3>
+                            <p class="text-lg text-gray-500 py-2 lg:py-6">Fortalecer os recursos do SUS, apoiando profissionais da saúde, serviço social e educação
                             </p>
                             
                             <div class="mt-auto self-end">
@@ -144,8 +145,8 @@
 
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-900 to-slate-900 hover:to-slate-800">
-                            <h3 class="text-blue-900 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
-                            <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
+                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
+                            <p class="text-lg text-gray-500 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
                             
                             <div class="mt-auto self-end">
                                 <font-awesome-icon :icon="instagram" class="h-24 w-24 hover:text-blue-900 text-blue-900"/>
@@ -171,7 +172,7 @@
                         <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black" class="hover:text-red-300">
                             <font-awesome-icon :icon="youtube" class="h-12 w-12 hover:text-red-500"/>
                         </a>
-                        <a href="" class="hover:text-gray-300">
+                        <a href="https://web.whatsapp.com/send?phone=554491122022" class="hover:text-gray-300" target="_black">
                             <font-awesome-icon :icon="whatsapp" class="h-12 w-12 hover:text-green-400"/>
                         </a>
                             
@@ -200,7 +201,7 @@
                         <div class="col-span-1 w-auto flex">
 
                             <div class="">
-                                <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/phone.png" class="w-3 h-3"> 44 998181367</p>
+                                <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/phone.png" class="w-3 h-3"> 44 991122022</p>
                                 <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/mail.png" class="w-3 h-3">marioseto@gmail.com</p>
                             </div>
                         </div>
@@ -221,7 +222,7 @@
                             <p>Mário Seto</p>
                     </div>
                     <div id="copyright-text">
-                            &copy; Topo da praça corporations. 2022. All rights reserved.
+                            &copy; Todos os direitos reservados. 2022.
                     </div>
                     <div class="flex justify-around gap-8 w-auto mt-8 md:mt-0 lg:mt-0">
                             <a href="https://www.instagram.com/marioseto23/" target="_black">
@@ -233,7 +234,9 @@
                             <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black">
                                 <font-awesome-icon :icon="youtube" class="h-6 w-6 hover:text-blue-500"/>
                             </a>
-                            <font-awesome-icon :icon="whatsapp" class="h-6 w-6 hover:text-green-400"/>
+                            <a href="https://web.whatsapp.com/send?phone=554491122022" target="_black">
+                                <font-awesome-icon :icon="whatsapp" class="h-6 w-6 hover:text-green-400"/>
+                            </a>
                     </div>
                 </div>
 
