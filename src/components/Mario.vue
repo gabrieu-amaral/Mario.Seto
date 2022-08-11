@@ -76,14 +76,14 @@
             <section id="sobre"
             class="pt-24 flex flex-col-reverse md:grid lg:grid-cols-2 md:grid-cols-2 gap-10 p-5">
                 
-                <div  class="px-4 lg:px-16 justify-center">
-                    <h2 class="text-gray-400 text-2xl align-baseline font-sans font-medium pt-1 pb-1">Quem é Mário Seto?</h2>
+                <div  class="px-4 lg:px-16 justify-center grid my-auto">
+                    <h2 class="text-gray-400 text-2xl font-sans font-medium pt-1 pb-1">Quem é Mário Seto?</h2>
                     <p class="text-lg text-gray-600">Meu nome é Mário Seto, sou pai, psicólogo clínico, cuido de pessoas, trabalho no SUS há 10 anos lutando pela Saúde Mental, comecei em Sarandi, fui chefe na Saúde na Regional de Londrina com 21 municípios e coordenei a Saúde Mental da Regional de Maringá com 30 municípios.</p>
                 </div>
 
-                <div  class="px-4 lg:px-16">
+                <div  class="px-4 lg:px-10">
                     <picture>
-                        <img class="max-h-40 sm:h-28 md:h-36 lg:h-44 flex m-auto" src="../image/mario-com-familia.png" alt="foto do Mário">
+                        <img class="max-h-64 sm:h-56 md:h-56 lg:h-56 flex m-auto" src="../image/mario-com-familia.png" alt="foto do Mário">
                     </picture>
                 </div>
 
@@ -200,7 +200,6 @@
                         <div class="col-span-1 w-auto flex">
 
                             <div class="">
-                                <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/marker.png" class="w-3 h-3">136, Mário José de F. Ferraz, Maringá, Paraná</p>
                                 <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/phone.png" class="w-3 h-3"> 44 998181367</p>
                                 <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/mail.png" class="w-3 h-3">marioseto@gmail.com</p>
                             </div>
