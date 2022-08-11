@@ -9,7 +9,7 @@
             bg-gradient-to-r from-blue-900 to-blue-700">
                 <div class="container m-auto flex justify-between items-center text-cyan-100 z-50"> 
                      <a class="" href="">
-                        <img src="../image/mariov.svg" alt="" className=" md:h-16 md:w-16 w-24 md:-p-4 pl-4 md:px-0 py-3">
+                        <img src="../image/mariov.svg" alt="logo Mário Seto" className=" md:h-16 md:w-16 w-24 md:-p-4 pl-4 md:px-0 py-3">
                      </a>
                 
                     <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
@@ -84,7 +84,7 @@
 
                 <div  class="px-4 lg:px-10">
                     <picture>
-                        <img class="max-h-64 sm:h-56 md:h-56 lg:h-56 flex m-auto" src="../image/mario-com-familia.png" alt="foto do Mário">
+                        <img class="max-h-64 sm:h-56 md:h-56 lg:h-56 flex m-auto" src="../image/mario-com-familia.png" alt="foto do Mário com sua família">
                     </picture>
                 </div>
 
@@ -114,7 +114,7 @@
                             <div class="mt-auto self-end">
                                 <img src="/psychology.png"
                                 class="h-24 w-24" 
-                                alt="">
+                                alt="icone saúde e educação">
                             </div>
                         </div>
 
@@ -126,7 +126,7 @@
                             <div class="mt-auto self-end">
                                 <img src="/disies.svg"
                                 class="h-24 w-24" 
-                                alt="">
+                                alt="icone acessibilidade">
                             </div>
                         </div>
 
@@ -139,7 +139,7 @@
                             <div class="mt-auto self-end">
                                 <img src="/sus.svg"
                                 class="h-24 w-24" 
-                                alt="">
+                                alt="icone sus">
                             </div>
                         </div>
 
@@ -219,8 +219,8 @@
                 <div class="w-auto lg:flex md:flex table justify-between pt-2 lg:pt-16 md:pt-16 text-gray-700
                 ">
                     <div id="footer-logo-section">
-                             <a class="opacity-10" href="">
-                                <img src="../image/mariov.svg" alt="" className=" md:h-16 w-16 md:-p-4 md:px-0 py-3">
+                             <a class="opacity-10" href="#Home">
+                                <img src="../image/mariov.svg" alt="logo Mário Seto" className=" md:h-16 w-16 md:-p-4 md:px-0 py-3">
                             </a>
                     </div>
                     <div id="copyright-text" class="mt-auto pt-2">
