@@ -216,15 +216,17 @@
                     </div>
                 </div>
 
-                <div class="w-auto lg:flex md:flex table justify-between pt-6 lg:pt-16 md:pt-16 text-gray-700
+                <div class="w-auto lg:flex md:flex table justify-between pt-2 lg:pt-16 md:pt-16 text-gray-700
                 ">
                     <div id="footer-logo-section">
-                            <p>Mário Seto</p>
+                             <a class="opacity-10" href="">
+                                <img src="../image/mariov.svg" alt="" className=" md:h-16 w-16 md:-p-4 md:px-0 py-3">
+                            </a>
                     </div>
-                    <div id="copyright-text">
+                    <div id="copyright-text" class="mt-auto pt-2">
                             &copy; Todos os direitos reservados. 2022.
                     </div>
-                    <div class="flex justify-around gap-8 w-auto mt-8 md:mt-0 lg:mt-0">
+                    <div class="flex justify-between gap-8 w-auto mt-8 md:mt-0 lg:mt-auto">
                             <a href="https://www.instagram.com/marioseto23/" target="_black">
                                 <font-awesome-icon :icon="instagram" class="h-6 w-6 hover:text-blue-900"/>
                             </a>
