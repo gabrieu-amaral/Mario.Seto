@@ -220,7 +220,7 @@
                 ">
                     <div id="footer-logo-section">
                              <a class="opacity-10" href="#Home">
-                                <img src="../image/mariov.svg" alt="logo Mário Seto" className=" md:h-16 w-16 md:-p-4 md:px-0 py-3">
+                                <img src="../image/mariov.svg" alt="logo Mário Seto" className=" md:h-16 w-16 md:-p-4 md:px-0">
                             </a>
                     </div>
                     <div id="copyright-text" class="mt-auto pt-2">
