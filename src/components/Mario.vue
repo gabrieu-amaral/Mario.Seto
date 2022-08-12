@@ -79,7 +79,7 @@
                 
                 <div  class="px-4 lg:px-16 justify-center grid my-auto">
                     <h2 class="text-slate-700 text-2xl font-sans font-medium pt-1 pb-1">Quem é Mário Seto?</h2>
-                    <p class="text-lg text-gray-500">Meu nome é Mário Seto, sou pai, psicólogo clínico, cuido de pessoas, trabalho no SUS há 10 anos lutando pela Saúde Mental, comecei em Sarandi, fui chefe na Saúde na Regional de Londrina com 21 municípios e coordenei a Saúde Mental da Regional de Maringá com 30 municípios.</p>
+                    <p class="text-lg text-gray-600">Meu nome é Mário Seto, sou pai, psicólogo clínico, cuido de pessoas, trabalho no SUS há 10 anos lutando pela Saúde Mental, comecei em Sarandi, fui chefe na Saúde na Regional de Londrina com 21 municípios e coordenei a Saúde Mental da Regional de Maringá com 30 municípios.</p>
                 </div>
 
                 <div  class="px-4 lg:px-10">
@@ -96,10 +96,10 @@
                 
                 <div  class="px-4 lg:px-16 justify-center">
                     <h2 class="text-slate-700 text-2xl align-baseline font-sans font-medium pt-1 pb-1">Nossa Missão</h2>
-                    <p class="text-lg text-gray-500 py-2">Muitos paranaenses precisam de ajuda psicológica e outros tratamentos especializados, seja para o autismo, a depressão, ansiedade, tdah, esquizofrenia. <strong>As taxas de suicidio aumentaram e cerca de 86% dos brasileiros têm problemas com saúde mental depois da pandemia</strong>.</p>
-                    <p class="text-lg text-gray-500 py-2">Meu medo é que não estamos vendo soluções preventivas e interventivas, <strong>não temos investimentos em Saúde Mental no Estado</strong>. Em casa, na rua e no trabalho não estamos falando e muito menos cuidando da saúde mental das pessoas, às vezes nem de quem amamos, são muitas brigas em vão, todo dia.</p>
-                    <p class="text-lg text-gray-500 py-2">Brigar é muito feio, precisamos lutar e lutar pelo certo e com Respeito! Devemos lutar pela Saúde Mental, cuidar do nosso cérebro e coração, pois boas cabeças farão bons amigos e serão bons trabalhadores. E mais que isso, vou continuar cobrando os nossos direitos no poder legislativo, pessoas mais conscientes já sabem que <strong>o dinheiro dos impostos que pagamos é o suficiente para fazer projetos incríveis na Saúde Mental do nosso Paraná!</strong></p>
-                    <p class="text-lg text-gray-500 py-2">Venha com a gente, <strong>discutir de forma madura ações de saúde mental para o estado</strong>.</p>
+                    <p class="text-lg text-gray-600 py-2">Muitos paranaenses precisam de ajuda psicológica e outros tratamentos especializados, seja para o autismo, a depressão, ansiedade, tdah, esquizofrenia. <strong>As taxas de suicidio aumentaram e cerca de 86% dos brasileiros têm problemas com saúde mental depois da pandemia</strong>.</p>
+                    <p class="text-lg text-gray-600 py-2">Meu medo é que não estamos vendo soluções preventivas e interventivas, <strong>não temos investimentos em Saúde Mental no Estado</strong>. Em casa, na rua e no trabalho não estamos falando e muito menos cuidando da saúde mental das pessoas, às vezes nem de quem amamos, são muitas brigas em vão, todo dia.</p>
+                    <p class="text-lg text-gray-600 py-2">Brigar é muito feio, precisamos lutar e lutar pelo certo e com Respeito! Devemos lutar pela Saúde Mental, cuidar do nosso cérebro e coração, pois boas cabeças farão bons amigos e serão bons trabalhadores. E mais que isso, vou continuar cobrando os nossos direitos no poder legislativo, pessoas mais conscientes já sabem que <strong>o dinheiro dos impostos que pagamos é o suficiente para fazer projetos incríveis na Saúde Mental do nosso Paraná!</strong></p>
+                    <p class="text-lg text-gray-600 py-2">Venha com a gente, <strong>discutir de forma madura ações de saúde mental para o estado</strong>.</p>
                 </div>
 
                 <div>
@@ -109,7 +109,7 @@
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-200">
                             <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
-                            <p class="text-lg text-gray-500 py-2 lg:py-6">Promoção da saúde mental em escolas e solidariedade às pessoas em sofrimento psíquico</p>
+                            <p class="text-lg text-gray-600 py-2 lg:py-6">Promoção da saúde mental em escolas e solidariedade às pessoas em sofrimento psíquico</p>
                             
                             <div class="mt-auto self-end">
                                 <img src="/psychology.png"
@@ -121,7 +121,7 @@
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-100">
                             <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Acessibilidade</h3>
-                            <p class="text-lg text-gray-500 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
+                            <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
                             
                             <div class="mt-auto self-end">
                                 <img src="/disies.svg"
@@ -133,7 +133,7 @@
                         <div class="grid items-stretch  p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-100">
                             <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Viva o SUS!</h3>
-                            <p class="text-lg text-gray-500 py-2 lg:py-6">Fortalecer os recursos do SUS, apoiando profissionais da saúde, serviço social e educação
+                            <p class="text-lg text-gray-600 py-2 lg:py-6">Fortalecer os recursos do SUS, apoiando profissionais da saúde, serviço social e educação
                             </p>
                             
                             <div class="mt-auto self-end">
@@ -146,7 +146,7 @@
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-100">
                             <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
-                            <p class="text-lg text-gray-500 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
+                            <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
                             
                             <div class="mt-auto self-end">
                                 <font-awesome-icon :icon="instagram" class="h-24 w-24 hover:text-blue-900 text-blue-900"/>
@@ -206,7 +206,7 @@
                             </div>
                         </div>
 
-                        <div class="col-span-1 w-auto lg:mt-0 md:mt-0 mt-6 md:ml-auto">
+                        <div class="col-span-1 w-auto lg:mt-0 md:mt-0 mt-6 md:ml-auto mb-8 md:mb-0">
                                 <ul class="flex lg:gap-16 md:gap-12 gap-6">
                                     <li class="my-1 hover:text-gray-700 text-slate-400"><a href="#Home">Home</a></li>
                                     <li class="my-1 hover:text-gray-700 text-slate-400"><a href="#sobre">Sobre</a></li>
@@ -219,24 +219,24 @@
                 <div class="w-auto lg:flex md:flex table justify-between pt-2 lg:pt-16 md:pt-16 text-gray-700
                 ">
                     <div id="footer-logo-section">
-                             <a class="opacity-20" href="#Home">
-                                <img src="../image/mariov.svg" alt="logo Mário Seto" className=" md:h-16 w-16 md:-p-4 md:px-0">
+                             <a class="opacity-20 py-10" href="#Home">
+                                <img src="../image/mariov.svg" alt="logo Mário Seto" className="h-10 w-16 md:-p-4 md:px-0">
                             </a>
                     </div>
-                    <div id="copyright-text" class="mt-auto pt-2 text-slate-400">
+                    <div id="copyright-text" class="mt-auto pt-8 md:pt-0 text-slate-400">
                             &copy; Todos os direitos reservados. 2022.
                     </div>
                     <div class="flex justify-between gap-8 w-auto mt-8 md:mt-0 lg:mt-auto">
-                            <a href="https://www.instagram.com/marioseto23/" target="_black">
+                            <a href="https://www.instagram.com/marioseto23/" target="_black" class="mt-auto">
                                 <font-awesome-icon :icon="instagram" class="h-6 w-6 hover:text-blue-900 text-slate-400"/>
                             </a>
-                            <a href="https://www.facebook.com/MarioSetoTakeguma" target="_black">
+                            <a href="https://www.facebook.com/MarioSetoTakeguma" target="_black" class="mt-auto">
                                  <font-awesome-icon :icon="facebook" class="h-6 w-6 hover:text-blue-900 text-slate-400" />
                             </a>
-                            <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black">
+                            <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black" class="mt-auto">
                                 <font-awesome-icon :icon="youtube" class="h-6 w-6 hover:text-blue-500 text-slate-400"/>
                             </a>
-                            <a href="https://web.whatsapp.com/send?phone=554491122022" target="_black">
+                            <a href="https://web.whatsapp.com/send?phone=554491122022" target="_black" class="mt-auto">
                                 <font-awesome-icon :icon="whatsapp" class="h-6 w-6 hover:text-green-400 text-slate-400"/>
                             </a>
                     </div>
