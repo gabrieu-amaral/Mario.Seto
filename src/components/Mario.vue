@@ -84,7 +84,7 @@
 
                 <div  class="px-4 lg:px-10">
                     <picture>
-                        <img class="max-h-64 h-44 sm:h-56 md:h-56 lg:h-56 flex m-auto shadow-2xl rounded-full" src="../image/mario-com-familia.png" alt="foto do Mário com sua família">
+                        <img class="max-h-64 h-44 sm:h-56 md:h-56 lg:h-56 flex m-auto shadow-2xl custom-shadow rounded-full" src="../image/mario-com-familia.png" alt="foto do Mário com sua família">
                     </picture>
                 </div>
 
