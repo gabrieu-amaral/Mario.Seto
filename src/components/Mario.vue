@@ -3,8 +3,8 @@
 </style>
 
 <template>
-    <div class="bg-slate-100 h-full">
-        <div class="lg:container mx-auto px-0 custom-shadow TIREI UM AZUL DAQUI">
+    <div class="bg-gradient-to-b from-gray-100 to-[#7bb4e2] h-full">
+        <div class="lg:container mx-auto px-0 bg-gray-100 custom-shadow TIREI UM AZUL DAQUI">
             <nav class="fixed top-0 left-0 w-full backdrop-blur-lg z-50 shadow-xl
             bg-gradient-to-r from-[#053664] to-[#0b63a9]">
                 <div class="container m-auto flex justify-between items-center text-cyan-100 z-50"> 
@@ -132,7 +132,7 @@
 
                         <div class="grid items-stretch  p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-100">
-                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Viva o SUS!</h3>
+                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Melhoria da Saúde Pública</h3>
                             <p class="text-lg text-gray-600 py-2 lg:py-6">Fortalecer os recursos do SUS, apoiando profissionais da saúde, serviço social e educação
                             </p>
                             
@@ -145,11 +145,13 @@
 
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-100">
-                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
-                            <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
+                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Tratamentos e Serviços Modernos</h3>
+                            <p class="text-lg text-gray-600 py-2">Implementar abordagens modernas e cientificamente comprovadas no SUS, como ABA, DENVER e CBD</p>
                             
                             <div class="mt-auto self-end">
-                                <font-awesome-icon :icon="instagram" class="h-24 w-24 hover:text-blue-900 text-blue-900"/>
+                                <img src="/ciencia.svg"
+                                class="h-24 w-24" 
+                                alt="icone modernidade">
                             </div>
                         </div>
                     </div>
@@ -184,7 +186,7 @@
             <section>
                 <div class="grid lg:grid-cols-2 gap-10 p-16 pt-24 justify-center bg-slate-300">
                     <div>
-                        <h2 class="flex justify-center md:justify-start text-2xl align-baseline font-sans font-medium pt-1 pb-1 text-slate-900">Apoie a causa!</h2>
+                        <h2 class="flex justify-start text-2xl align-baseline font-sans font-medium pt-1 pb-1 text-slate-900">Apoie a causa!</h2>
                         <p class="text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sed. Aspernatur incidunt provident cumque corporis deserunt sint fuga, enim atque magni minima, voluptas repellat voluptatum, adipisci qui! Ut, numquam quas?</p>
                     </div>
 
@@ -210,7 +212,7 @@
                                 <ul class="flex lg:gap-16 md:gap-12 gap-6">
                                     <li class="my-1 hover:text-gray-700 text-slate-400"><a href="#Home">Home</a></li>
                                     <li class="my-1 hover:text-gray-700 text-slate-400"><a href="#sobre">Sobre</a></li>
-                                    <li class="my-1 hover:text-gray-700 text-slate-400"><a href="#">Missão</a></li>
+                                    <li class="my-1 hover:text-gray-700 text-slate-400"><a href="#missao">Missão</a></li>
                                 </ul>
                         </div>
                     </div>
