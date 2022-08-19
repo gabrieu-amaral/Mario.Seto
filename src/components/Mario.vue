@@ -4,7 +4,7 @@
 
 <template>
     <div class="bg-gradient-to-b from-gray-100 to-[#7bb4e2] h-full">
-        <div class="lg:container mx-auto px-0 bg-gray-100 custom-shadow TIREI UM AZUL DAQUI">
+        <div class="lg:container mx-auto px-0 bg-gray-100 custom-shadow overflow-hidden">
             <nav class="fixed top-0 left-0 w-full backdrop-blur-lg z-50 shadow-xl
             bg-gradient-to-r from-[#053664] to-[#0b63a9]">
                 <div class="container m-auto flex justify-between items-center text-cyan-100 z-50"> 
@@ -63,14 +63,22 @@
        
 
             <section id="home" class="pt-28 lg:pb-0 px-4 lg:px-16 lg:grid flex flex-col-reverse lg:grid-cols-2 gap-4 bg-[url('../image/background.png')] h-full w-full bg-cover bg-{opacity-50}">
-                <div>
+                <div class="relative z-30">
                     <picture class="flex lg:justify-end md:justify-center md:h-[38rem] px-16">
                         <img src="../image/mario.png" alt="foto do Mário Seto" class="lg:max-w-none">
                     </picture>
                 </div>
-                <div class="flex justify-center place-items-center mb-8">
-                    <h1 class="text-2xl text-center lg:text-left lg:text-5xl md:text-5xl font-sans font-extrabold text-gray-200
-                    tracking-wide leading-normal lg:leading-relaxed">Força e Esperança para a Saúde Mental do Paraná</h1>
+                <div class="table justify-center place-items-center my-auto overflow-clip">
+
+                    <h2 class="lg:text-3xl text-lg text-gray-200 font-extralight text-center lg:text-left uppercase">por mais <strong>saúde mental</strong> no <strong>paraná</strong></h2>
+
+                    <div class="bg-gray-100 md:h-32 h-16 w-screen z-10 md:-ml-96 mt-6 lg:mt-2 md:-mb-32 -ml-4 -mb-20 md:mx-0"></div>
+                    <h2 class="lg:text-8xl text-6xl mt-6 font-sans font-extrabold text-blue-700 text-center lg:text-left z-20 relative">23456</h2>
+                    
+                    <h1 class="text-5xl text-center lg:text-left lg:text-7xl md:text-5xl font-sans font-extrabold text-gray-200
+                    tracking-wide leading-normal lg:leading-relaxed uppercase ">Mário Seto</h1>
+                    <h2 class="uppercase text-gray-300 lg:text-2xl text-lg text-center lg:text-left ">deputado estaudal</h2>
+                
                 </div>
             </section>
 
