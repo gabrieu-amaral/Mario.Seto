@@ -10,6 +10,12 @@ module.exports = {
         'mental': "url('/image/background.png')",
       }
     },
+
+    theme: {
+      fontFamily: {
+        
+      }
+    }
   },
   plugins: [],
   variants: {

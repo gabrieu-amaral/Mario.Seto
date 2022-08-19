@@ -33,12 +33,12 @@
 
                 
 
-                    <button class="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-[#0f3558] group">
+                    <button class="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-[#0f3558] group" @click="MobileMenu">
                         <div class="w-6 h-0.5 bg-gray-200 mb-1"></div>
                         <div class="w-6 h-0.5 bg-gray-200 mb-1"></div>
                         <div class="w-6 h-0.5 bg-gray-200"></div>
-                        <div class="absolute top-0 -right-full h-screen w-8/12 backdrop-blur-xl bg-[#0f3558] border-none opacity-0
-                        group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
+
+                        <div class="absolute top-0 -right-full h-screen w-8/12 backdrop-blur-xl bg-[#0f3558] border-none opacity-0 transition-all duration-300" :class="conditionalCalss">
                             <ul class="flex flex-col items-center w-full text-base cursor-pointer">
                                 <li class="my-5 mt-16">
                                         <a href="#home" class="hover:bg-[#0f3558] py-4 px-24">Home</a>
@@ -187,12 +187,12 @@
                 <div class="grid lg:grid-cols-2 gap-10 p-16 pt-24 justify-center bg-slate-300">
                     <div>
                         <h2 class="flex justify-start text-2xl align-baseline font-sans font-medium pt-1 pb-1 text-slate-900">Apoie a causa!</h2>
-                        <p class="text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sed. Aspernatur incidunt provident cumque corporis deserunt sint fuga, enim atque magni minima, voluptas repellat voluptatum, adipisci qui! Ut, numquam quas?</p>
+                        <p class="text-slate-700">Quer saber mais sobre minhas propostas, ou sugerir novas ações para melhorar a Saúde Mental no Paraná? Ou deseja fazer parte da nossa equipe e levar a mensagem da Saúde Mental para mais pessoas? Clique no botão ao lado e vamos conversar!</p>
                     </div>
 
                     <button class="bg-gradient-to-r from-[#0b63a9] to-[#053664] hover:to-blue-900 px-6 py-4 text-3xl leading-6 rounded-full font-semibold text-white max-h-24 md:mx-24 my-auto shadow-gray-500 shadow-2xl"
                     type="button">
-                        Quero ajudar
+                        Falar com o Mário
                     </button>
                 </div>
             </section>
@@ -232,7 +232,7 @@
                             <a href="https://www.instagram.com/marioseto23/" target="_black" class="mt-auto">
                                 <font-awesome-icon :icon="instagram" class="h-6 w-6 hover:text-blue-900 text-slate-400"/>
                             </a>
-                            <a href="https://www.facebook.com/MarioSetoTakeguma" target="_black" class="mt-auto">
+                            <a href="https://www.facebook.com/MarioSeto23" target="_black" class="mt-auto">
                                  <font-awesome-icon :icon="facebook" class="h-6 w-6 hover:text-blue-900 text-slate-400" />
                             </a>
                             <a href="https://www.youtube.com/MarioSa%C3%BAdeMental" target="_black" class="mt-auto">
@@ -253,6 +253,7 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebook, faInstagram, faLinkedin, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
+
 export default {
     name: 'Mario',
     components: {FontAwesomeIcon},
@@ -262,9 +263,18 @@ export default {
             facebook: faFacebook,
             linkedin: faLinkedin,
             whatsapp: faWhatsapp,
-            youtube: faYoutube
+            youtube: faYoutube,
 
+            conditionalCalss: "",
+
+            classes: "absolute top-0 -right-full h-screen w-8/12 backdrop-blur-xl bg-[#0f3558] border-none opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300"
             
+        }
+    },
+
+    methods:{
+        MobileMenu(e) {
+            this.conditionalCalss = this.conditionalCalss != '' ? '' : 'opacity-100 right-0' 
         }
     }
 }
