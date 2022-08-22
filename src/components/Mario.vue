@@ -132,7 +132,7 @@
                             <p class="text-lg text-gray-600 py-2">Programas de incentivo à praticas de saúde mental em empresas</p>
                             
                             <div class="mt-auto self-end">
-                                <img src="/disies.svg"
+                                <img src="/empresa.svg"
                                 class="h-24 w-24" 
                                 alt="icone acessibilidade">
                             </div>
