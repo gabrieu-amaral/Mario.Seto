@@ -65,18 +65,18 @@
             <section id="home" class="pt-28 lg:pb-0 px-4 lg:px-16 lg:grid flex flex-col-reverse lg:grid-cols-2 gap-4 bg-[url('../image/background.png')] h-full w-full bg-cover bg-{opacity-50}">
                 <div class="relative z-30">
                     <picture class="flex lg:justify-end md:justify-center md:h-[38rem] px-16">
-                        <img src="../image/mario.png" alt="foto do Mário Seto" class="lg:max-w-none">
+                        <img src="../image/mario.png" alt="foto do Mário Seto" class="lg:max-w-none pl-6 md:pl-0">
                     </picture>
                 </div>
                 <div class="table justify-center place-items-center my-auto overflow-clip">
 
                     <h2 class="lg:text-3xl text-lg text-gray-200 font-extralight text-center lg:text-left uppercase">por mais <strong>saúde mental</strong> no <strong>paraná</strong></h2>
 
-                    <div class="bg-gray-100 md:h-32 h-16 w-screen z-10 md:-ml-96 mt-6 lg:mt-2 md:-mb-32 -ml-4 -mb-20 md:mx-0"></div>
-                    <h2 class="lg:text-8xl text-6xl mt-6 font-sans font-extrabold text-blue-700 text-center lg:text-left z-20 relative">23456</h2>
+                    <div class="bg-gradient-to-r to-gray-100 from-gray-200 lg:h-32 h-16 w-screen z-10 lg:-ml-96 mt-6 lg:mt-2 lg:-mb-32 -ml-4 -mb-20 md:mx-0"></div>
+                    <h2 class="lg:text-8xl text-6xl mt-4 font-sans font-extrabold text-center lg:text-left z-20 relative text-transparent bg-clip-text bg-gradient-to-r from-[#053664] to-[#0b63a9]">23456</h2>
                     
                     <h1 class="text-5xl text-center lg:text-left lg:text-7xl md:text-5xl font-sans font-extrabold text-gray-200
-                    tracking-wide leading-normal lg:leading-relaxed uppercase ">Mário Seto</h1>
+                    tracking-wide leading-normal lg:leading-relaxed uppercase md:mt-5">Mário Seto</h1>
                     <h2 class="uppercase text-gray-300 lg:text-2xl text-lg text-center lg:text-left ">deputado estaudal</h2>
                 
                 </div>
@@ -117,7 +117,7 @@
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-200">
                             <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Saúde Mental e Psicoeducação</h3>
-                            <p class="text-lg text-gray-600 py-2 lg:py-6">Promoção da saúde mental em escolas e solidariedade às pessoas em sofrimento psíquico</p>
+                            <p class="text-lg text-gray-600 py-2 lg:py-6">Psicoeducação nas escolas e apoio psicológico para professores, pais e alunos</p>
                             
                             <div class="mt-auto self-end">
                                 <img src="/psychology.png"
@@ -128,8 +128,8 @@
 
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-100">
-                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Acessibilidade</h3>
-                            <p class="text-lg text-gray-600 py-2">Políticas públicas para pessoas neuroatípicas (TEA, TDAH, dislexia, entre outros) e seus familiares</p>
+                            <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Incentivo a Saúde Mental</h3>
+                            <p class="text-lg text-gray-600 py-2">Programas de incentivo à praticas de saúde mental em empresas</p>
                             
                             <div class="mt-auto self-end">
                                 <img src="/disies.svg"
@@ -141,7 +141,7 @@
                         <div class="grid items-stretch  p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-100">
                             <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Melhoria da Saúde Pública</h3>
-                            <p class="text-lg text-gray-600 py-2 lg:py-6">Fortalecer os recursos do SUS, apoiando profissionais da saúde, serviço social e educação
+                            <p class="text-lg text-gray-600 py-2 lg:py-6">Contratar mais profissionais qualificados e oferecer mais tratamentos multidisciplinares
                             </p>
                             
                             <div class="mt-auto self-end">
@@ -154,7 +154,7 @@
                         <div class="grid items-stretch p-6 rounded-lg 
                         bg-gradient-to-r from-gray-200 to-slate-200 hover:to-slate-100">
                             <h3 class="text-blue-500 text-xl align-baseline font-sans font-medium pt-1 pb-1">Tratamentos e Serviços Modernos</h3>
-                            <p class="text-lg text-gray-600 py-2">Implementar abordagens modernas e cientificamente comprovadas no SUS, como ABA, DENVER e CBD</p>
+                            <p class="text-lg text-gray-600 py-2">Disponibilizar tratamentos modernos e novos serviços de saúde mental dentro do SUS</p>
                             
                             <div class="mt-auto self-end">
                                 <img src="/ciencia.svg"
