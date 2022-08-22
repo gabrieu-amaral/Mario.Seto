@@ -73,7 +73,7 @@
                     <h2 class="lg:text-3xl text-lg text-gray-200 font-extralight text-center lg:text-left uppercase">por mais <strong>saúde mental</strong> no <strong>paraná</strong></h2>
 
                     <div class="bg-gradient-to-r to-gray-100 from-gray-200 lg:h-32 h-16 w-screen z-10 lg:-ml-96 mt-6 lg:mt-2 lg:-mb-32 -ml-4 -mb-20 md:mx-0"></div>
-                    <h2 class="lg:text-8xl text-6xl mt-4 font-sans font-extrabold text-center lg:text-left z-20 relative text-transparent bg-clip-text bg-gradient-to-r from-[#053664] to-[#0b63a9]">23456</h2>
+                    <h2 class="lg:text-8xl text-6xl mt-4 font-sans font-extrabold text-center lg:text-left z-20 relative text-transparent bg-clip-text bg-gradient-to-r from-[#185fa1] to-[#18518a]">23456</h2>
                     
                     <h1 class="text-5xl text-center lg:text-left lg:text-7xl md:text-5xl font-sans font-extrabold text-gray-200
                     tracking-wide leading-normal lg:leading-relaxed uppercase md:mt-5">Mário Seto</h1>
@@ -108,6 +108,7 @@
                     <p class="text-lg text-gray-600 py-2">Meu medo é que não estamos vendo soluções preventivas e interventivas, <strong>não temos investimentos em Saúde Mental no Estado</strong>. Em casa, na rua e no trabalho não estamos falando e muito menos cuidando da saúde mental das pessoas, às vezes nem de quem amamos, são muitas brigas em vão, todo dia.</p>
                     <p class="text-lg text-gray-600 py-2">Brigar é muito feio, precisamos lutar e lutar pelo certo e com Respeito! Devemos lutar pela Saúde Mental, cuidar do nosso cérebro e coração, pois boas cabeças farão bons amigos e serão bons trabalhadores. E mais que isso, vou continuar cobrando os nossos direitos no poder legislativo, pessoas mais conscientes já sabem que <strong>o dinheiro dos impostos que pagamos é o suficiente para fazer projetos incríveis na Saúde Mental do nosso Paraná!</strong></p>
                     <p class="text-lg text-gray-600 py-2">Venha com a gente, <strong>discutir de forma madura ações de saúde mental para o estado</strong>.</p>
+                    <p class="text-lg text-gray-600 py-2">Me ajude a salvar vidas e cuidar da mente da nossa gente! Vote 2 3 4 5 6</p>
                 </div>
 
                 <div>
@@ -198,10 +199,12 @@
                         <p class="text-slate-700">Quer saber mais sobre minhas propostas, ou sugerir novas ações para melhorar a Saúde Mental no Paraná? Ou deseja fazer parte da nossa equipe e levar a mensagem da Saúde Mental para mais pessoas? Clique no botão ao lado e vamos conversar!</p>
                     </div>
 
-                    <button class="bg-gradient-to-r from-[#0b63a9] to-[#053664] hover:to-blue-900 px-6 py-4 text-3xl leading-6 rounded-full font-semibold text-white max-h-24 md:mx-24 my-auto shadow-gray-500 shadow-2xl"
-                    type="button">
-                        Falar com o Mário
-                    </button>
+                    <a href="https://web.whatsapp.com/send?phone=554491122022" target="_black" class="m-auto">
+                        <button class="bg-gradient-to-r from-[#0b63a9] to-[#053664] hover:to-blue-900 px-8 py-4 text-2xl md:text-3xl leading-6 rounded-full font-semibold text-white max-h-24 md:mx-24 my-auto shadow-gray-500 shadow-2xl"
+                        type="button">
+                            Falar com o Mário
+                        </button>
+                    </a>
                 </div>
             </section>
 
