@@ -113,7 +113,7 @@
                         <p class="font-extrabold text-[#0b63a9] text-3xl mr-4">vote:</p>
                         
                         <p class="rounded-2xl bg-[#0b63a9] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">2</p>
-                        <p class="rounded-2xl bg-[#0e5590] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">3</p>
+                        <p class="rounded-2xl bg-[#0d538c] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">3</p>
                         <p class="rounded-2xl bg-[#0d4878] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">4</p>
                         <p class="rounded-2xl bg-[#10406d] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">5</p>
                         <p class="rounded-2xl bg-[#0f3558] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">6</p>
