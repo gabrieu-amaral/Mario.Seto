@@ -41,7 +41,7 @@
                         <div class="absolute top-0 -right-full h-screen w-8/12 backdrop-blur-xl bg-[#0f3558] border-none opacity-0 transition-all duration-300" :class="conditionalCalss">
                             <ul class="flex flex-col items-center w-full text-base cursor-pointer">
                                 <li class="my-5 mt-16">
-                                        <a href="#home" class="hover:bg-[#0f3558] py-4 px-24">Home</a>
+                                        <a href="#home" class="hover:bg-[#0f3558] py-4 px-24 scroll-smooth">Home</a>
                                 </li >
 
                                 <li class="my-5">
@@ -53,7 +53,7 @@
                                 </li>
 
                                 <li class="my-5">
-                                        <a href="#footer" class="hover:bg-[#0f3558] py-4 px-24">Contato</a>
+                                        <a href="#footer" class="hover:bg-[#0f3558] py-4 px-24 scroll-smooth">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -108,7 +108,16 @@
                     <p class="text-lg text-gray-600 py-2">Meu medo é que não estamos vendo soluções preventivas e interventivas, <strong>não temos investimentos em Saúde Mental no Estado</strong>. Em casa, na rua e no trabalho não estamos falando e muito menos cuidando da saúde mental das pessoas, às vezes nem de quem amamos, são muitas brigas em vão, todo dia.</p>
                     <p class="text-lg text-gray-600 py-2">Brigar é muito feio, precisamos lutar e lutar pelo certo e com Respeito! Devemos lutar pela Saúde Mental, cuidar do nosso cérebro e coração, pois boas cabeças farão bons amigos e serão bons trabalhadores. E mais que isso, vou continuar cobrando os nossos direitos no poder legislativo, pessoas mais conscientes já sabem que <strong>o dinheiro dos impostos que pagamos é o suficiente para fazer projetos incríveis na Saúde Mental do nosso Paraná!</strong></p>
                     <p class="text-lg text-gray-600 py-2">Venha com a gente, <strong>discutir de forma madura ações de saúde mental para o estado</strong>.</p>
-                    <p class="text-lg text-gray-600 py-2">Me ajude a salvar vidas e cuidar da mente da nossa gente! Vote 2 3 4 5 6</p>
+                    <p class="text-lg text-gray-600 py-2">Me ajude a salvar vidas e cuidar da mente da nossa gente!</p>
+                    <div class="flex mt-2">
+                        <p class="font-extrabold text-[#0b63a9] text-3xl mr-4">vote:</p>
+                        
+                        <p class="rounded-2xl bg-[#0b63a9] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">2</p>
+                        <p class="rounded-2xl bg-[#0e5590] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">3</p>
+                        <p class="rounded-2xl bg-[#0d4878] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">4</p>
+                        <p class="rounded-2xl bg-[#10406d] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">5</p>
+                        <p class="rounded-2xl bg-[#0f3558] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">6</p>
+                    </div>
                 </div>
 
                 <div>
