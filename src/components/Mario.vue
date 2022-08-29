@@ -224,7 +224,7 @@
 
                             <div class="">
                                 <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/phone.png" class="w-3 h-3"> 44 991122022</p>
-                                <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/mail.png" class="w-3 h-3">marioseto@gmail.com</p>
+                                <p class="text-left flex items-center gap-2 hover:text-gray-700"><img src="https://img.icons8.com/ios-filled/12/999999/mail.png" class="w-3 h-3">mariosaudemental@gmail.com</p>
                             </div>
                         </div>
 
