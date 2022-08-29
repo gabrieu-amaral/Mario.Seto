@@ -72,11 +72,11 @@
 
                     <h2 class="lg:text-3xl text-lg text-gray-200 font-extralight text-center lg:text-left uppercase">por mais <strong>saúde mental</strong> no <strong>paraná</strong></h2>
 
-                    <div class="bg-gradient-to-r to-gray-100 from-gray-200 lg:h-32 h-16 w-screen z-10 lg:-ml-96 mt-6 lg:mt-2 lg:-mb-32 -ml-4 -mb-20 md:mx-0"></div>
-                    <h2 class="lg:text-8xl text-6xl mt-4 font-sans font-extrabold text-center lg:text-left z-20 relative text-transparent bg-clip-text bg-gradient-to-r from-[#185fa1] to-[#18518a]">23456</h2>
+                    <div class="bg-gradient-to-r to-gray-100 from-gray-200 lg:h-32 h-16 w-screen z-10 lg:-ml-96 mt-6 lg:mt-2 lg:-mb-36 -ml-4 -mb-20 md:mx-0"></div>
+                    <h2 class="lg:text-9xl text-6xl mt-4 font-sans font-extrabold text-center lg:text-left z-20 relative text-transparent bg-clip-text bg-gradient-to-r from-[#185fa1] to-[#18518a]">23456</h2>
                     
                     <h1 class="text-5xl text-center lg:text-left lg:text-7xl md:text-5xl font-sans font-extrabold text-gray-200
-                    tracking-wide leading-normal lg:leading-relaxed uppercase md:mt-5">Mário Seto</h1>
+                    tracking-wide leading-normal lg:leading-relaxed uppercase md:mt-3">Mário Seto</h1>
                     <h2 class="uppercase text-gray-300 lg:text-2xl text-lg text-center lg:text-left ">deputado estaudal</h2>
                 
                 </div>
@@ -112,11 +112,11 @@
                     <div class="flex mt-2">
                         <p class="font-extrabold text-[#0b63a9] text-3xl mr-4">vote:</p>
                         
-                        <p class="rounded-2xl bg-[#0b63a9] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">2</p>
-                        <p class="rounded-2xl bg-[#0d538c] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">3</p>
-                        <p class="rounded-2xl bg-[#0d4878] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">4</p>
-                        <p class="rounded-2xl bg-[#10406d] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">5</p>
-                        <p class="rounded-2xl bg-[#0f3558] font-extrabold w-8 h-10 text-center text text-gray-100 align-middle pt-2 mr-4">6</p>
+                        <p class="rounded-lg bg-[#0b63a9] font-extrabold w-8 h-10 text-center text bg-clip-text text-transparent align-middle pt-2 mr-4 border-sky-700 border-2">2</p>
+                        <p class="rounded-lg bg-[#0d538c] font-extrabold w-8 h-10 text-center text bg-clip-text text-transparent align-middle pt-2 mr-4 border-sky-700 border-2">3</p>
+                        <p class="rounded-lg bg-[#0d4878] font-extrabold w-8 h-10 text-center text bg-clip-text text-transparent align-middle pt-2 mr-4 border-sky-700 border-2">4</p>
+                        <p class="rounded-lg bg-[#10406d] font-extrabold w-8 h-10 text-center text bg-clip-text text-transparent align-middle pt-2 mr-4 border-sky-700 border-2">5</p>
+                        <p class="rounded-lg bg-[#134471] font-extrabold w-8 h-10 text-center text bg-clip-text text-transparent align-middle pt-2 mr-4 border-sky-700 border-2">6</p>
                     </div>
                 </div>
 
@@ -245,8 +245,10 @@
                                 <img src="../image/mariov.svg" alt="logo Mário Seto" className="h-10 w-16 md:-p-4 md:px-0">
                             </a>
                     </div>
-                    <div id="copyright-text" class="mt-auto pt-8 md:pt-0 text-slate-400">
+                    <div id="copyright-text" class="mt-auto pt-8 md:pt-0 text-slate-500">
                             &copy; Todos os direitos reservados. 2022.
+                            <p class="m-auto text-center">CNPJ:47.474.712/0001-06</p>
+                            
                     </div>
                     <div class="flex justify-between gap-8 w-auto mt-8 md:mt-0 lg:mt-auto">
                             <a href="https://www.instagram.com/marioseto23/" target="_black" class="mt-auto">
